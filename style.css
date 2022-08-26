@@ -9,17 +9,16 @@ h1 {
     font-weight: 900;
     text-align: center;
     background-color: dodgerblue;
-    padding: 1rem;
     margin: 0;
 }
 
 img {
-    width: 30rem;
+    max-width: 75%;
 }
 
 .layout {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .panel {
@@ -35,4 +34,17 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width: 768px)
+{
+    .layout{
+        display: block;
+    }
+    .panel {
+        width: 100%;
+    }
+    .picPanel {
+        width: 100%;
+    }
 }
