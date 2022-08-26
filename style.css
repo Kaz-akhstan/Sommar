@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    background-color: #252525;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
     text-align: center;
     background-color: dodgerblue;
     margin: 0;
+    padding: 1rem;
 }
 
 img {
@@ -34,6 +36,14 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+input {
+    width: auto;
+}
+
+span {
+    background-color: dodgerblue;
 }
 
 @media (max-width: 768px)
